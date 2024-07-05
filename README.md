@@ -28,7 +28,7 @@ Obviously, `vue@latest` is `bxhuVue` here.
 
 This command will install and execute [create-vue](https://github.com/vuejs/create-vue), which is the official project scaffolding tool provided by Vue.
 
-### 服务器启动
+### Starting Machine
 
 After project creation, proceed with the following steps to install dependencies and start the development server.
 
