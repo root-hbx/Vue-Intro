@@ -4,7 +4,7 @@
 
 ## How to Start?
 
-### 安装Node.js
+### Node.js Installation
 
 [Node.js Installation](https://nodejs.org/zh-cn/download/package-manager)
 
@@ -14,23 +14,23 @@ Example configuration has been installed to:
   /opt/homebrew/opt/tmux/share/tmux
 ```
 
-### 初始化仓库
+### Repository Initialization
 
+Ensure that you have installed the latest version of [Node.js](https://nodejs.org/) and that your current working directory is the intended directory for project creation. 
 
-确保你安装了最新版本的 [Node.js](https://nodejs.org/)，并且你的当前工作目录正是打算创建项目的目录。在命令行中运行以下命令：
+Execute the following command in the command line:
 
 ```sh
 npm create vue@latest
 ```
 
-这个仓库内很显然`vue@latest`就是`bxhuVue`
+Obviously, `vue@latest` is `bxhuVue` here.
 
-这一指令将会安装并执行 [create-vue](https://github.com/vuejs/create-vue)，它是 Vue 官方的项目脚手架工具
+This command will install and execute [create-vue](https://github.com/vuejs/create-vue), which is the official project scaffolding tool provided by Vue.
 
 ### 服务器启动
 
-
-在项目被创建后，通过以下步骤安装依赖并启动开发服务器：
+After project creation, proceed with the following steps to install dependencies and start the development server.
 
 ```sh
 cd <your-project-name, namely 'bxhuVue' here> 
@@ -38,9 +38,9 @@ npm install
 npm run dev
 ```
 
-现在应该已经运行起来了你的第一个 Vue 项目
+Now your first Vue project should be up and running.
 
-这是现在的文件架构:
+Here is the current file structure:
 
 ```sh
 ❯ tree -L 2
@@ -60,7 +60,9 @@ npm run dev
 6 directories, 6 files
 ```
 
-推荐的 IDE 配置是 [Visual Studio Code](https://code.visualstudio.com/) + [Vue - Official 扩展](https://marketplace.visualstudio.com/items?itemName=Vue.volar)。如果使用其他编辑器，参考 [IDE 支持章节](https://cn.vuejs.org/guide/scaling-up/tooling.html#ide-support)
+The recommended IDE configuration is [Visual Studio Code](https://code.visualstudio.com/) with the [Vue - Official Extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
+
+If using a different editor, refer to the [IDE Support section](https://cn.vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
 
 ## Basic Examples and GUIs
@@ -112,14 +114,14 @@ import CorrespondingSignal from './components/2-test.vue'
 </script> -->
 ```
 
-然后，我们就可以在`$HOME`下运行了
+Then we can run in `$HOME`
 
 ```sh
 cd <your-project-name, namely 'bxhuVue' here> 
 npm run dev
 ```
 
-它会显示这样的界面，随后点击localhost即可访问
+A page will be shown like this, and you can visit the corresponding website by clicking localhost_link
 
 ```sh
 VITE v5.3.3  ready in 139 ms
@@ -128,4 +130,3 @@ VITE v5.3.3  ready in 139 ms
 ➜  Network: use --host to expose
 ➜  press h + enter to show help
 ```
-
